@@ -15,7 +15,15 @@ Seu papel será elaborar o frontend **utilizando ReactJS** e consumir uma API j�
 ### Contexto
 Você foi contratado pela Offline Disco, uma empresa de discos de vinil raros, para poder criar o frontend de uma aplicação web que consumirá os recursos necessários do backend que já foi desenvolvido. O protótipo já foi criado pelo designer e agora cabe à você dar vida à aplicação convertendo-o para código.
 
-Dentro do link http://wasd.com.br/swagger, haverá uma lista de endpoints os quais você pode consumir para buscar informações de um banco de dados real - tais como: lista de discos, lista de categoria, etc - e fazer com que sua aplicação torne-se funcional.
+Dentro do link http://wasd.com.br/swagger, haverá uma lista de endpoints os quais você pode consumir para buscar informações de um banco de dados real - tais como: lista de discos, lista de categoria, etc - e fazer com que sua aplicação torne-se funcional. Segue abaixo uma breve lista com os endpoints:
+
+| Verbo HTTP    | Descrição     | Resultado esperado  |
+| :------------ |:-------------| :-----|
+| [GET]         | Obter uma lista de todos os discos |  Status 200|
+| [GET]         | Obter uma lista de categorias|   Status 200    |
+| [POST]        | Criar um novo disco              | Status 201      |
+| [PUT]         | Alterar informações de um artista já cadastrado               | Status 200 |
+| [DELETE]       | Excluir uma faixa de um disco               | Status 200 |
 
 ### Telas
 Existem dois tipos de tela: as de usuários comuns e as de administradores. Basicamente, a única diferença entre elas é a adição de controles para adição/remoção/alteração nas telas de administradores.
